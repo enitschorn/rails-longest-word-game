@@ -1,12 +1,12 @@
 <div><h1>New game</h1></div>
 <div class="letters-container">
-  <% @letters.each do |letter| %>
   <ul>
+  <% @letters.each do |letter| %>
     <li class="individual-letter">
       <%= letter %>
     </li>
-  </ul>
   <% end %>
+  </ul>
 </div>
 <div>
   <p>What is the longest word you can find?</p>
